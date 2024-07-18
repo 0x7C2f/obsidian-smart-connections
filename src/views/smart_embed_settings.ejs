@@ -23,16 +23,6 @@
   data-placeholder="Enter a number"
   data-callback="reload_env"
 ></div>
-<% if(!settings.smart_notes_embed_model.includes('/') || !settings.smart_blocks_embed_model.includes('/')) { %>
-<div class="setting-component"
-  data-name="OpenAI API Key for embeddings"
-  data-type="password"
-  data-setting="api_key"
-  data-placeholder="Enter your OpenAI API Key"
-  data-button="Save"
-  data-callback="test_api_key_openai_embeddings"
-></div>
-<% } %>
 <% if(settings.smart_notes_embed_model.includes('/') || settings.smart_blocks_embed_model.includes('/')) { %>
 <div class="setting-component"
   data-name="Local Embedding Max Tokens"
@@ -45,13 +35,6 @@
   data-option-4="4096"
   data-option-5="8192"
   data-callback="reload_env"
-></div>
-
-<div class="setting-component"
-  data-name="Connect to Smart Connect"
-  data-description="<a href='https://github.com/brianpetro/smart-connect'>Smart Connect</a> is free to use for faster local embeddings."
-  data-type="button"
-  data-callback="connect_to_smart_connect"
 ></div>
 <% } %>
 <div class="setting-component"

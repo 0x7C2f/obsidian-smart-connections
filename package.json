@@ -3,7 +3,7 @@
   "version": "2.1.86",
   "description": "Link and chat with your notes using ChatGPT and embedding artificial intelligence from OpenAI.",
   "scripts": {
-    "build": "npm run compile && node build/esbuild.js",
+    "build": "npm run compile && node build/esbuild.js && mv ./dist/* .obsidian/plugins/smart-connections",
     "compile": "node build/compile.js",
     "release": "node build/release.js",
     "test": "npx ava --verbose"

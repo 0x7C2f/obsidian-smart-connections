@@ -3,7 +3,6 @@
 .obsidian
 .smart-connections
 .vscode
-.ajson
 dist
 node_modules
 stylesheets
