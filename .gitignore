@@ -3,7 +3,13 @@
 .obsidian
 .smart-connections
 .vscode
+.ajson
 dist
 node_modules
 stylesheets
 ref
+
+
+
+# Ignore Smart Connections folder
+.smart-connections
