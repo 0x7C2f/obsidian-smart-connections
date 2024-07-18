@@ -7,7 +7,7 @@ dist
 node_modules
 stylesheets
 ref
-
+.smart-env
 
 
 # Ignore Smart Connections folder
